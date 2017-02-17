@@ -5,7 +5,7 @@ const router = express.Router();
 
 const songsRoutes = require('./songs/songs-routes');
 const config = require('./shared/config');
-const mongo = require('./shared/mongodb');
+const db = require('./shared/db');
 
 let app = express();
 app.set('port', 3000);
@@ -15,7 +15,8 @@ app.use(logger('dev'));
 app.use(bodyParser.json({limit: '16mb'}));
 app.use(bodyParser.urlencoded({extended: false}));
 
-mongo.connect(config.dbUrl);
+db.connectMongo(config.MONGO_URL);
+db.connectMysql(config);
 
 app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
