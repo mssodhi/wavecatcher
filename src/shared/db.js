@@ -15,14 +15,15 @@ let service = {
   },
 
   connectMysql: function (config) {
+    var MY_SQL = config.MY_SQL;
     this.mysqlDB = mysql.createConnection({
-      host     : config.url,
-      user     : config.user,
-      password : config.password,
-      database : config.database
+      host     : MY_SQL.url,
+      user     : MY_SQL.user,
+      password : MY_SQL.password,
+      database : MY_SQL.database
     });
 
-    // this.mysqlDB.connect();
+    this.mysqlDB.connect();
   },
 
   collection: function (name) {
