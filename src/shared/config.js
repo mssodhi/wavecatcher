@@ -1,6 +1,6 @@
 module.exports = {
   baseUrl: process.env.baseUrl || '',
-  MONGO_URL: process.env.baseUrl || 'mongodb://localhost:27017/wavecatcher',
+  MONGO_URL: process.env.baseUrl || 'mongodb://mssodhi.me:27017/wavecatcher',
   MY_SQL: {
     url: 'soundbox.cfqj53afsnvx.us-west-2.rds.amazonaws.com',
     user: 'admin',

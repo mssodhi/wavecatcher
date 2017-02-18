@@ -9,12 +9,12 @@ let model = {
       date: new Date()
     });
 
-    var query = 'INSERT into wavecatcher.logs (`userId`, `trackId`) values (\''+ data.userId + '\', \'' + data.trackId + '\');';
-    db.mysqlDB.query(query, function (error, results, fields) {
-      if (error) throw error;
-    });
+    // var query = 'INSERT into wavecatcher.logs (`userId`, `trackId`) values (\''+ data.userId + '\', \'' + data.trackId + '\');';
+    // db.mysqlDB.query(query, function (error, results, fields) {
+    //   if (error) throw error;
+    // });
 
-    return db.collection('songs').findOne({name: 'manu'});
+    return db.collection('songs').find();
   }
 };
 
