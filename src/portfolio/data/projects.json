@@ -3,48 +3,100 @@
     "name": "Chicken Hop",
     "platform": "iOS",
     "language": "Objective C",
-    "links": {"site": "", "github": "https://github.com/mssodhi/Chicken-Hop"},
-    "images": [ "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop1.png", "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop2.png", "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop3.png"],
-    "description": ""
+    "links": {
+      "site": "",
+      "github": "https://github.com/mssodhi/Chicken-Hop"
+    },
+    "images": [
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop1.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop2.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop3.png"
+    ],
+    "description": "",
+    "nested": {
+      "obj1": "hii",
+      "obj2": "second",
+      "nested-2": {
+        "obj3": "third"
+      }
+    }
   },
   {
     "name": "SoundBox",
     "platform": "WebApp",
     "language": "Java and AngularJs",
-    "links": {"site": "http://mssodhi.me/soundbox", "github": "https://github.com/mssodhi/soundbox"},
-    "images": [ "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox1.png", "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox2.png", "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox3.png"],
-    "description": ""
+    "links": {
+      "site": "http://mssodhi.me/soundbox",
+      "github": "https://github.com/mssodhi/soundbox"
+    },
+    "images": [
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox1.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox2.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox3.png"
+    ],
+    "description": "",
+    "nested": {
+      "obj1": "hii",
+      "obj2": "second",
+      "links": {
+        "site": "http://mssodhi.me/soundbox",
+        "github": "https://github.com/mssodhi/soundbox"
+      }
+    }
   },
   {
     "name": "Jarvis",
     "platform": "iOS",
     "language": "Swift 3",
-    "links": {"site": "", "github": "https://github.com/mssodhi/Jarvis-ios"},
+    "links": {
+      "site": "",
+      "github": "https://github.com/mssodhi/Jarvis-ios"
+    },
     "images": [],
-    "description": ""
+    "description": "",
+    "nested": ""
   },
   {
     "name": "Wake me up",
     "platform": "iOS",
     "language": "Swift 2",
-    "links": {"site": "", "github": "https://github.com/mssodhi/Wake-Me-Up"},
+    "links": {
+      "site": "",
+      "github": "https://github.com/mssodhi/Wake-Me-Up"
+    },
     "images": [],
-    "description": ""
+    "description": "",
+    "nested": ""
   },
   {
     "name": "WebCraft",
     "platform": "iOS and WebApp",
     "language": "Swift, Java, and AngularJs",
-    "links": {"site": "http://a-out.me/webcraft/#/", "github": ""},
-    "images": ["https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft1.png", "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft2.png", "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft3.png"],
-    "description": ""
+    "links": {
+      "site": "http://a-out.me/webcraft/#/",
+      "github": ""
+    },
+    "images": [
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft1.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft2.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft3.png"
+    ],
+    "description": "",
+    "nested": ""
   },
   {
     "name": "Text to Speech",
     "platform": "iOS",
     "language": "Swift 2",
-    "links": {"site": "", "github": "https://github.com/mssodhi/text2speech"},
-    "images": ["https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/text2speech1.png", "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/text2speech2.png"],
-    "description": ""
+    "links": {
+      "site": "",
+      "github": "https://github.com/mssodhi/text2speech"
+    },
+    "images": [
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/text2speech1.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/text2speech2.png"
+    ],
+    "description": "",
+    "nested": ""
   }
 ]
