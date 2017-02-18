@@ -1,11 +1,14 @@
 const express = require('express');
+const graphHttp = require('express-graphql');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const router = express.Router();
 
+const portfolioRoutes = require('./portfolio/portfolio-routes');
 const songsRoutes = require('./songs/songs-routes');
 const config = require('./shared/config');
 const db = require('./shared/db');
+const graphSchema = require('./graph/schema');
 
 let app = express();
 app.set('port', 3000);
@@ -30,7 +33,15 @@ app.use(function (req, res, next) {
   }
 });
 
+router.use('/graph', graphHttp(req => {
+  return {
+    schema: graphSchema,
+    graphiql: true
+  }
+}));
+
 router.use('/songs', songsRoutes);
+router.use('/portfolio', portfolioRoutes);
 
 app.use(config.baseUrl, router);
 
