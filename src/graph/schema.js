@@ -1,4 +1,4 @@
-const { GraphQLObjectType, GraphQLSchema, GraphQLList } = require('graphql');
+const { GraphQLObjectType, GraphQLSchema, GraphQLNonNull, GraphQLList, GraphQLString } = require('graphql');
 const portfolioModel = require('../portfolio/portfolio-model');
 const ProjectType = require('./types/project');
 const CourseType = require('./types/course');
@@ -9,11 +9,17 @@ const query = new GraphQLObjectType({
   fields: {
     projects: {
       type: new GraphQLList(ProjectType),
-      resolve: (_, args) => portfolioModel.getProjects()
+      args: {
+        name: {type: GraphQLString}
+      },
+      resolve: (_, args) => portfolioModel.getProjects(args)
     },
     courses: {
       type: new GraphQLList(CourseType),
-      resolve: (_, args) => portfolioModel.getCourses()
+      args: {
+        name: {type: GraphQLString}
+      },
+      resolve: (_, args) => portfolioModel.getCourses(args)
     }
   }
 });
