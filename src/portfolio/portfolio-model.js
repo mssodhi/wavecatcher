@@ -4,8 +4,7 @@ const courses = require('./data/courses.json');
 let model = {
   getProjects: function (args) {
     return new Promise(function (resolve, reject){
-      console.log(args);
-      if(args.name) {
+      if(args && args.name) {
         resolve(projects.filter(project => project.name === args.name));
       } else {
         resolve(projects);
@@ -15,7 +14,7 @@ let model = {
 
   getCourses: function (args) {
     return new Promise(function (resolve, reject){
-      if(args.name) {
+      if(args && args.name) {
         resolve(courses.filter(course => course.name === args.name));
       } else {
         resolve(courses);
