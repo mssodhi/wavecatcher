@@ -5,7 +5,7 @@ let model = {
 
     db.collection('songs').insertOne({
       userId: data.userId,
-      trackId: data.trackId,
+      track: data.track,
       date: new Date()
     });
 
