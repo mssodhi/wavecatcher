@@ -12,7 +12,7 @@
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop2.png",
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop3.png"
     ],
-    "description": "",
+    "description": "Chicken hop is a 2D single player game based on the popular Doodle Jump game. I started this project when I came across a game dev tutorial, and started experimenting with iOS games. Originally I wrote the game in Objective-C, but then ported over the game in Swift as it was the new language supported by Apple. Overall I learned a lots from building this game ranging from game dev/coding principles, to how to develop and launch an app in production.",
     "nested": {
       "obj1": "hii",
       "obj2": "second",
@@ -34,7 +34,7 @@
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox2.png",
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox3.png"
     ],
-    "description": "",
+    "description": "SoundBox is a WebApp based on SoundCloud. A user can login using their Facebook credentials, search artists and playlists. Favorite artists, like tracks, and create their own playlist(s). The reason I created SoundBox was because I was tired of listening to Ads while listening to my friends' music on SoundCloud.",
     "nested": {
       "obj1": "hii",
       "obj2": "second",
@@ -53,8 +53,7 @@
       "github": "https://github.com/mssodhi/Jarvis-ios"
     },
     "images": [],
-    "description": "",
-    "nested": ""
+    "description": "I was sitting at home over Winter break when I saw a video by Facebook CEO Mark Juckerberg where he was showing his Personal Artificial Intelligence Assistant Jarvis. I was truly inspired by the whole demo, and soon started working on my own Jarvis. Although I didn't know how to do everything Mark's Jarvis could do, I decided to start anyways, and start small. For the starters, I decided to get voice recognition working on an iOS app which would connect to a server running on my laptop. From that, I decided to hard code a few commands so I could control Spotify app on my laptop. So I had Jarvis controlling music on my laptop. Next I wanted Jarvis to control the lights in my room. Soon I realized hard coding commands would not be scalable, so I enrolled in Artificial Intelligence course my last quarter at UC Davis. I'll start working on Jarvis soon, so an update will be coming soon."
   },
   {
     "name": "Wake me up",
@@ -65,8 +64,7 @@
       "github": "https://github.com/mssodhi/Wake-Me-Up"
     },
     "images": [],
-    "description": "",
-    "nested": ""
+    "description": ""
   },
   {
     "name": "WebCraft",
@@ -81,8 +79,7 @@
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft2.png",
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft3.png"
     ],
-    "description": "",
-    "nested": ""
+    "description": ""
   },
   {
     "name": "Text to Speech",
@@ -96,7 +93,6 @@
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/text2speech1.png",
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/text2speech2.png"
     ],
-    "description": "",
-    "nested": ""
+    "description": ""
   }
 ]
