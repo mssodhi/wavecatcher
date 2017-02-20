@@ -41,6 +41,7 @@ module.exports = new GraphQLObjectType({
     language: {type: GraphQLString},
     links: {type: links},
     nested: {type: nested},
-    images: {type: new GraphQLList(GraphQLString)}
+    images: {type: new GraphQLList(GraphQLString)},
+    description: {type: GraphQLString}
   }
 });
