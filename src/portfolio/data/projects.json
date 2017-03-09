@@ -12,14 +12,7 @@
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop2.png",
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/chicken_hop3.png"
     ],
-    "description": "Chicken hop is a 2D single player game based on the popular Doodle Jump game. I started this project when I came across a game dev tutorial, and started experimenting with iOS games. Originally I wrote the game in Objective-C, but then ported over the game in Swift as it was the new language supported by Apple. Overall I learned a lots from building this game ranging from game dev/coding principles, to how to develop and launch an app in production.",
-    "nested": {
-      "obj1": "hii",
-      "obj2": "second",
-      "nested-2": {
-        "obj3": "third"
-      }
-    }
+    "description": "Chicken hop is a 2D single player game based on the popular Doodle Jump game. I started this project when I came across a game dev tutorial, and started experimenting with iOS games. Originally I wrote the game in Objective-C, but then ported over the game in Swift as it was the new language supported by Apple. Overall I learned a lots from building this game ranging from game dev/coding principles, to how to develop and launch an app in production."
   },
   {
     "name": "SoundBox",
@@ -34,15 +27,7 @@
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox2.png",
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox3.png"
     ],
-    "description": "SoundBox is a WebApp based on SoundCloud. A user can login using their Facebook credentials, search artists and playlists. Favorite artists, like tracks, and create their own playlist(s). The reason I created SoundBox was because I was tired of listening to Ads while listening to my friends' music on SoundCloud.",
-    "nested": {
-      "obj1": "hii",
-      "obj2": "second",
-      "links": {
-        "site": "http://mssodhi.me/soundbox",
-        "github": "https://github.com/mssodhi/soundbox"
-      }
-    }
+    "description": "SoundBox is a WebApp based on SoundCloud. A user can login using their Facebook credentials, search artists and playlists. Favorite artists, like tracks, and create their own playlist(s). The reason I created SoundBox was because I was tired of listening to Ads while listening to my friends' music on SoundCloud."
   },
   {
     "name": "Jarvis",
@@ -53,7 +38,7 @@
       "github": "https://github.com/mssodhi/Jarvis-ios"
     },
     "images": [],
-    "description": "I was sitting at home over Winter break when I saw a video by Facebook CEO Mark Juckerberg where he was showing his Personal Artificial Intelligence Assistant Jarvis. I was truly inspired by the whole demo, and soon started working on my own Jarvis. Although I didn't know how to do everything Mark's Jarvis could do, I decided to start anyways, and start small. For the starters, I decided to get voice recognition working on an iOS app which would connect to a server running on my laptop. From that, I decided to hard code a few commands so I could control Spotify app on my laptop. So I had Jarvis controlling music on my laptop. Next I wanted Jarvis to control the lights in my room. Soon I realized hard coding commands would not be scalable, so I enrolled in Artificial Intelligence course my last quarter at UC Davis. I'll start working on Jarvis soon, so an update will be coming soon."
+    "description": "I was sitting at home over Winter break when I saw a video by Facebook CEO Mark Zuckerberg where he was showing his Personal Artificial Intelligence Assistant Jarvis. I was truly inspired by the whole demo, and soon started working on my own Jarvis. Although I didn't know how to do everything Mark's Jarvis could do, I decided to start anyways, and start small. For the starters, I decided to get voice recognition working on an iOS app which would connect to a server running on my laptop. From that, I decided to hard code a few commands so I could control Spotify app on my laptop. So I had Jarvis controlling music on my laptop. Next I wanted Jarvis to control the lights in my room. Soon I realized hard coding commands would not be scalable, so I enrolled in Artificial Intelligence course my last quarter at UC Davis. I'll start working on Jarvis soon, so an update will be coming soon."
   },
   {
     "name": "Wake me up",
@@ -64,7 +49,7 @@
       "github": "https://github.com/mssodhi/Wake-Me-Up"
     },
     "images": [],
-    "description": ""
+    "description": "Wake-me-up is an iOS app I made when my car broke down for a month and I had to take the bus to work. The commute to work when I drive is usually no more than 10 minutes, however that changed when my car broke down and I had to take the bus from my apartment to campus, and then another bus from campus to work. The bus from campus to work took about 40 minutes to go through busy Davis downtown, making stops at what seemed like every other stop to pick up or drop off passengers. Every time I took the bus, I wanted to sleep, but didn't want to miss my stop. I could set an alarm, but that was just too easy of a solution. So I decided to fix this myself. That's when the idea of wake me up was born. The idea is that you drop a pin on the map, and set a radius from that pin. When you break/enter that radius, the app will start alarming indicating you are within the set radius, and wake you up. For this project I used google maps, and set the default radius to 1 mile. So whenever the bus was 1 mile away from my bus stop, it would sound an alarm, and wake me up."
   },
   {
     "name": "WebCraft",
@@ -79,7 +64,7 @@
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft2.png",
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/webcraft3.png"
     ],
-    "description": ""
+    "description": "This was a class project for ECS 160 (Software Engineering). The whole class worked as a company, and our end goal was to resurrect retro game WarCraft. The class was split into multiple teams including but not limited to iOS, Android, Linux, Windows, Web, OSx, etc. I was originally put on Web team. Due to having experience with web from work and my personal experience, I was the lead for the web team. We decided to use AngularJs and Spring framework to build the web portion of the project. It was a simple site where a user can create an account, download game files for their respective platforms, add to forums, message other users, see leaderboards etc. Being in a leadership position was something I wasn't already used to, but I also faced many challenges ranging from teaching my team full stack development, to time management, to customer relations. Half way through the course, our web team was 90% done with our quarter goals and that was a relief because that meant we can experiment with new technologies. However, the instructor decided to move me to iOS team because someone had dropped the course and they were down a developer. When I joined the iOS team, it became apparent that no one had iOS experience before and the team goals were far from being finished. I had a some iOS experience because of Chicken Hop, Wake-me-up, Text-to-speech, etc. So I yet again took up the lead position, and started refactoring the code base. By the end of the quarter, we didn't complete all the goals, but we made 80% of the goals which seemed impossible when I first came aboard. Overall I think this project really pushed me further than I thought it would in both developing my leadership skils, and development skills."
   },
   {
     "name": "Text to Speech",
@@ -93,6 +78,6 @@
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/text2speech1.png",
       "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/text2speech2.png"
     ],
-    "description": ""
+    "description": "This was just a basic text to speech app I created to learn and play around with Swift when it first came out. I had experience with Objective-C from writing Chicken hop, so I wanted to try out Swift. It used iOS speech library to convert user input text to speech."
   }
 ]
