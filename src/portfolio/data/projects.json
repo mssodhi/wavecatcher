@@ -30,6 +30,23 @@
     "description": "SoundBox is a WebApp based on SoundCloud. A user can login using their Facebook credentials, search artists and playlists. Favorite artists, like tracks, and create their own playlist(s). The reason I created SoundBox was because I was tired of listening to Ads while listening to my friends' music on SoundCloud."
   },
   {
+    "name": "SoundBox React Native",
+    "platform": "iOS, Android",
+    "language": "Javascript, React, Objective C",
+    "links": {
+      "site": "",
+      "github": "https://github.com/mssodhi/soundbox-react-native"
+    },
+    "images": [
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox-react1.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox-react2.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox-react3.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox-react4.png",
+      "https://s3-us-west-2.amazonaws.com/mssodhi-portfolio/images/soundbox-react5.png"
+    ],
+    "description": "This is an extension to SoundBox webapp. I decided to create this app using React-native framework to make quick development time, and speed up prototyping. Currently supports facebook login. Under development at the moment."
+  },
+  {
     "name": "Jarvis",
     "platform": "iOS",
     "language": "Swift 3",
