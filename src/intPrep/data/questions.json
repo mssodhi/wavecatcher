@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What are method references, and how are they useful?",
+    "answer": "Method references were introduced in Java 8 and allow constructors and methods (static or otherwise) to be used as lambdas. They allow one to discard the boilerplate of a lambda when the method reference matches an expected signature.",
+    "course": { "id": 1, "name": "Java", "abbr": "J" },
+    "subject": "References"
+  },
+  {
+    "question": "What is difference between JDK,JRE and JVM?",
+    "answer": "JVM is an acronym for Java Virtual Machine, it is an abstract machine which provides the runtime environment in which java bytecode can be executed. It is a specification. JVMs are available for many hardware and software platforms (so JVM is platform dependent). JRE stands for Java Runtime Environment. It is the implementation of JVM. JDK is an acronym for Java Development Kit. It physically exists. It contains JRE + development tools.",
+    "course": { "id": 1, "name": "Java", "abbr": "J" },
+    "subject": "Basics"
+  },
+  {
+    "question": "What is JIT compiler?",
+    "answer": "ust-In-Time(JIT) compiler:It is used to improve the performance. JIT compiles parts of the byte code that have similar functionality at the same time, and hence reduces the amount of time needed for compilation.Here the term “compiler” refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.",
+    "course": { "id": 1, "name": "Java", "abbr": "J" },
+    "subject": "Compilers"
+  },
+  {
+    "question": "What is Inheritance?",
+    "answer": "Inheritance is a mechanism in which one object acquires all the properties and behaviour of another object of another class. It represents IS-A relationship. It is used for Code Resusability and Method Overriding.",
+    "course": { "id": 2, "name": "Javascript", "abbr": "Js" },
+    "subject": "Inheritance"
+  }
+]
