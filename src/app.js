@@ -6,6 +6,7 @@ const router = express.Router();
 
 const portfolioRoutes = require('./portfolio/portfolio-routes');
 const songsRoutes = require('./songs/songs-routes');
+const intprepRoutes = require('./intPrep/intprep-routes');
 const config = require('./shared/config');
 const db = require('./shared/db');
 const graphSchema = require('./graph/schema');
@@ -41,6 +42,7 @@ router.use('/graph', graphHttp(req => {
 
 router.use('/songs', songsRoutes);
 router.use('/portfolio', portfolioRoutes);
+router.use('/intprep', intprepRoutes)
 
 app.use(config.baseUrl, router);
 
