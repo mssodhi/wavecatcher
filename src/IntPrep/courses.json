@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Java",
+    "abbr": "J"
+  },
+  {
+    "name": "Javascript",
+    "abbr": "Js"
+  },
+  {
+    "name": "Python",
+    "abbr": "Py"
+  },
+  {
+    "name": "C++",
+    "abbr": "C++"
+  },
+  {
+    "name": "Swift",
+    "abbr": "S"
+  }
+]
