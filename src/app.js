@@ -19,7 +19,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json({limit: '16mb'}));
 app.use(bodyParser.urlencoded({extended: false}));
 
-db.connectMongo(config.MONGO_URL);
+db.connect(config.MONGO_URL);
 
 app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');

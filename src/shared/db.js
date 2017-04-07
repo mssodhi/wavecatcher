@@ -1,18 +1,15 @@
 const MongoClient = require('mongodb').MongoClient;
 
 let service = {
-  mongoDB: null,
-  connectMongo: function (url) {
-    return MongoClient.connect(url).then(
-      db => {
-        this.mongoDB = db;
-      },
-      err => console.error('mongo err: ', err)
-    );
-  },
+  wavecatcher: null,
 
-  collection: function (name) {
-    return service.mongoDB.collection(name);
+  connect: function(url) {
+    return Promise.all([
+      MongoClient.connect(url),
+    ]).then(([wavecatcher]) => {
+      this.wavecatcher = wavecatcher;
+    },
+    err => console.error('mongo error: ', err));
   }
 };
 

@@ -1,26 +1,21 @@
 [
   {
-    "id": 1,
     "name": "Java",
     "abbr": "J"
   },
   {
-    "id": 2,
     "name": "Javascript",
     "abbr": "Js"
   },
   {
-    "id": 3,
     "name": "Python",
     "abbr": "Py"
   },
   {
-    "id": 4,
     "name": "C++",
     "abbr": "C++"
   },
   {
-    "id": 5,
     "name": "Swift",
     "abbr": "S"
   }

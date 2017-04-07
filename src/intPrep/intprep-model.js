@@ -1,21 +1,20 @@
-const courses = require('./data/courses.json');
-const questions = require('./data/questions.json');
+let db = require('./../shared/db');
 
 let model = {
-  getCourses: function (args) {
+  getCourses: function () {
     return new Promise(function (resolve, reject){
-      if(args && args.name) {
-        resolve(courses.filter(course => course.name === args.name));
-      } else {
-        resolve(courses);
-      }
+      db.wavecatcher.collection('courses').find({}).toArray((err, res) => {
+        resolve(res);
+      });
     });
   },
 
   getQuestionsForCourse: function(id) {
     return new Promise(function (resolve, reject){
       if(id) {
-        resolve(questions.filter(question => question.course.id == id));
+        db.wavecatcher.collection('questions').find({'course._id': id }).toArray((err, res) => {
+          resolve(res);
+        });
       } else {
         reject()
       }
